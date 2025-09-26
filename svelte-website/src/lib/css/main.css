@@ -1,0 +1,139 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    letter-spacing: 8px;
+    image-rendering: pixelated;
+    margin:0px;
+	padding:0px;
+	letter-spacing:8px;
+	image-rendering: pixelated;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	/*-moz-osx-font-smoothing: grayscale;
+	*/
+	
+    
+}
+
+a {
+	text-decoration:none;
+	
+}
+
+p{
+    text-align: center;
+
+}
+	
+h1{
+    text-align: center;
+    margin-top: 10%;
+}
+h2, h3, h4 {
+    text-align: center;
+
+}
+
+div{
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+li{
+    list-style-type:none;
+}
+
+
+#navbar li{
+    display: inline;
+     padding: 10px; 
+
+    border: #ffffff70;
+    border-style: solid;
+    border-width: 2px;
+
+
+}
+
+body {
+    
+    background-color: rgb(22, 22, 33);
+    background-image: url(/static/mercurywaterBG.gif);
+    background-size: contain;
+    color: #a3aec1;
+    }
+
+#InfoBox {
+    background-color: #0d1d38;
+    padding: 1%;
+    margin: 15%;
+    margin-top: 3%;
+
+    box-shadow:rgb(100, 143, 146) 0px 5px 5px;
+    border-color: #252e53;
+    border-width: 0.1px;
+    border-style: solid;
+    box-shadow: 10px;
+    text-align: center;
+}
+
+#myVideo{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1080;
+    top:  0;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 90%;
+    border-color: #0d1d38;
+}
+
+#EmuScreen{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+#Pd1 {
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    right: 10;
+}
+
+
+/* 
+Animation Stuff
+*/
+a:link {
+	color:#55ace6;
+	}
+	
+a:visited {
+	color:#70c8ed;
+	}
+	
+a:hover {
+	color:#c1b492;
+	animation: wiredB2 1s ease-out infinite;
+
+	}
+	
+a:active {
+	color:#6fdaed;
+	}
+
+@keyframes example {    
+    0% {}
+}
+
+.diplace:hover{
+    animation: alternate-reverse;
+    empty-cells: show;
+}
+
