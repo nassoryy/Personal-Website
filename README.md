@@ -1,4 +1,3 @@
-# Personal-Website
+## Personal Website
 
-My personal Website. Created using Vite + svelte
-
+My Personal Website. Created using Vite and Sveltekit

@@ -60,9 +60,14 @@
 	<title>Fellow Stead</title>
     <link rel="icon" href='$lib/assets/cd.gif'>
 </svelte:head>
+
+
+
 <footer>
 
 </footer>
+    
+
 <style>
 	:global(body) {
 		overflow: hidden;
