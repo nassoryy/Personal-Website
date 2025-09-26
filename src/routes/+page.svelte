@@ -28,7 +28,6 @@
                 <li><a href="http://127.0.0.1:5000/Emulator">Personal Projects</a></li>
                 <li><a href="https://nassory.bandcamp.com/">Music</a></li>
                 <li><a href="">Test</a></li>
-                <li><a href="">Test</a></li>
             </ul>
         </div>
         <br><br><br><br>
